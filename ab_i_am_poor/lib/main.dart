@@ -6,9 +6,9 @@ void main() {
       home: Scaffold(
         appBar: AppBar(
           title: const Text('I am poor!'),
+          titleTextStyle: const TextStyle(fontFamily: 'Pacifico', fontSize: 25),
           backgroundColor: Colors.brown[400],
         ),
-        backgroundColor: Colors.white,
         body: const Center(
           child: Image(
             image: AssetImage('images/poo.png'),
